@@ -80,7 +80,7 @@
         </a>
       </li>
     </ul>
-    <h1> My Second Realse! </h1>
+    <h1> 리시눅발스 </h1>
   </div>
 </template>
 
@@ -89,7 +89,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Hell Low World .Vue.js App'
+      msg: 'Welcome to Fuckin Linux .Vue.js App'
     }
   }
 }
