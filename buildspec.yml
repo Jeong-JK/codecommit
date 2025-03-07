@@ -12,5 +12,13 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 sync ./dist s3://ss33-jjk2695
+      - echo "Completed"
+artifacts:
+  files:
+    - dist/**/*
+    - appspec.yml
+    - scripts/*
+
+
+
 
